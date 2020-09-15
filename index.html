@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crema Coffee</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <body>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Arimo&display=swap"
+        rel="stylesheet"
+      />
+
+      <!--HEADER and NAVIGATIOn-->
+      <header id="header">
+        <p class="logo" id="logo-header">Crema Coffee</p>
+        <img
+          id="header-img"
+          src="https://image.flaticon.com/icons/png/512/808/808799.png"
+        />
+
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#about-section">About Us</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!--Opener and Order now-->
+      <section id="opener">
+        <p id="tag-line">Single-Origin | Hand-Roasted | Farmed-Owned</p>
+        <p class="logo" id="logo-tag-line">Crema Coffee</p>
+        <br />
+        <button class="order-now" id="order-now-opener">Order Now</button>
+      </section>
+      <!--products and flex box??-->
+
+      <section id="products">
+        <div id="container-products">
+          <p class="logo" id="cc-products">Our fresh roasted beans</p>
+
+          <div class="beans" id="prodcut-one">
+            <img
+              class="beans-image"
+              src="https://cdn.pixabay.com/photo/2015/08/02/23/58/coffee-872530__340.jpg"
+            />
+            <p class="product-name">Beans #1</p>
+            <p class="product-price">€ 10.00</p>
+            <button class="order-now">Order Now</button>
+          </div>
+          <!--product box-->
+
+          <div class="beans" id="prodcut-two">
+            <img
+              class="beans-image"
+              src="https://cdn.pixabay.com/photo/2015/08/02/23/58/coffee-872530__340.jpg"
+            />
+            <p class="product-name">Beans #2</p>
+            <p class="product-price">€ 20.00</p>
+            <button class="order-now">Order Now</button>
+          </div>
+          <!--product box-->
+
+          <div class="beans" id="prodcut-three">
+            <img
+              class="beans-image"
+              src="https://cdn.pixabay.com/photo/2015/08/02/23/58/coffee-872530__340.jpg"
+            />
+            <p class="product-name">Beans #3</p>
+            <p class="product-price">€ 30.00</p>
+            <button class="order-now">Order Now</button>
+          </div>
+          <!--product box-->
+
+          <div class="beans" id="prodcut-four">
+            <img
+              class="beans-image"
+              src="https://cdn.pixabay.com/photo/2015/08/02/23/58/coffee-872530__340.jpg"
+              alt=""
+            />
+            <p class="product-name">Beans #4</p>
+            <p class="product-price">€ 40.00</p>
+            <button class="order-now">Order Now</button>
+          </div>
+          <!--product box-->
+        </div>
+        <!--products-container-->
+      </section>
+      <!-- End #products-->
+
+      <!--about & video-->
+
+      <div id="about-section">
+        <div id="about-box">
+          <p>
+            About Crema Coffee
+            <!-- Logo??? -->
+          </p>
+          <p id="about-paragraph">
+            We love coffee! Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div>
+          <iframe
+            id="video"
+            width="280"
+            height="157"
+            src="https://www.youtube.com/embed/GW8riJszDWk"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+      <!-- end aboutsection-->
+
+      <!-- contact & email form-->
+      <section id="contact-section">
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="post"
+        >
+          <label for="email-field"> Never miss an update! </label>
+          <br />
+          <br />
+          <input type="email" id="email" placeholder="Write your email here" />
+          <button type="" id="submit-button" value="Sign Up" >Sign Up</button>
+        </form>
+
+        <!--contacts div-->
+        <div id="contact-info">
+          Get in touch!
+
+          <ul>
+            <li>
+              <a href="">email(at)cremacoffee.com</a>
+            </li>
+            <li>
+              <a href="">Tele. 555-5555</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end email & contacts-->
+    </body>
+  </body>
+</html>
